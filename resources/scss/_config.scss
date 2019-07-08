@@ -1,0 +1,34 @@
+// Font definitions
+@import url('https://fonts.googleapis.com/css?family=Barlow|Raleway');
+// Using Roboto for numbers since Raleway is kinda weird
+@import url('https://fonts.googleapis.com/css?family=Roboto&text=0123456789');
+
+// Font assignments
+$f_text_header : "Roboto", "Raleway", Helvetica, Arial, sans-serif;
+$f_text        : "Barlow", "Raleway", Helvetica, Arial, sans-serif; // Font size 1.375rem (22px)
+
+// Color definitions
+$black     : #000000;
+$white     : #FFFFFF;
+$nero      : #1a1b1c;  // "Nero"       (Black)
+$tropaz    : #385d8b;  // "St Tropaz"  (Blue)
+$cello     : #384a5f;  // "Cello"      (Blue)
+$pablo     : #767460;  // "Pablo"      (Grey)
+$luxor     : #a58d3c;  // "Luxor Gold" (Yellow)
+$putty     : #d0b472;  // "Putty"      (Yellow)
+$coriander : #c1b38e;  // "Coriander"  (Green)
+$rust      : #b4472c;  // "Rust"       (Red)
+
+// UI Color Assignments
+$c_background      : $nero;
+$c_border          : $cello;
+$c_border_alt      : $luxor;
+$c_feature_bg      : $cello;
+$c_text            : lighten($pablo,15%);
+$c_text_accent     : $tropaz;
+$c_text_accent_alt : $luxor;
+$c_text_header     : $rust;
+
+// Layout options
+$l_container_width      : 50rem; // 800px
+$l_container_width_wide : 75rem; // 1200px
