@@ -12,5 +12,7 @@
     <?php endif ?>
   </footer>
 
+  <script type="text/javascript" src="/assets/dist/bundle.js"></script>
+
 </body>
 </html>

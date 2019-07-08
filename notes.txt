@@ -1,0 +1,9 @@
+#### Setup Webpack Dev Server
+`npm install webpack-dev-server --save-dev`
+
+#### Babel Setup
+`npm install @babel/core babel-loader @babel/preset-env --save-dev`
+
+
+#### Sass Support
+`npm i -D node-sass style-loader css-loader sass-loader mini-css-extract-plugin`

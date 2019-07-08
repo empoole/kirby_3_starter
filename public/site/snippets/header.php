@@ -7,7 +7,7 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
-  <?= css(['assets/css/index.css', '@auto']) ?>
+  <?= css(['assets/css/index.css', 'assets/dist/styles.css', '@auto']) ?>
 
 </head>
 <body>
@@ -22,4 +22,3 @@
         <?php endforeach ?>
       </nav>
     </header>
-
