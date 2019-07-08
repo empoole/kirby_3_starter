@@ -1,5 +1,4 @@
+@import "normalize";
 @import "config";
-
-body {
-  background: $c_background;
-}
+@import "base";
+@import "modules";
