@@ -31,5 +31,8 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname + '/public/assets/', 'dist')
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+  },
   watch: true
 };
