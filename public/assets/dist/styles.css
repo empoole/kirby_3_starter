@@ -325,13 +325,36 @@ a {
   color: #385d8b; }
 
 p, a, li, label {
+  color: #9d9a86;
   font-size: 1.375rem; }
 
 .container {
   margin: auto;
   width: 100%;
-  max-width: 50rem; }
-  @media only screen and (max-width: 50rem) {
+  max-width: 75rem; }
+  @media only screen and (max-width: 75rem) {
     .container {
       padding: 0 1.5rem; } }
+
+footer #copyright {
+  color: #9d9a86; }
+
+input, textarea, button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem; }
+
+input, textarea {
+  background: #384a5f;
+  border: 1px solid;
+  border-color: #384a5f;
+  font-size: 1.375rem; }
+
+button[type="submit"] {
+  background: #b4472c;
+  font-size: 1.375rem;
+  display: block;
+  border: none;
+  line-height: 1em;
+  text-transform: uppercase; }
 

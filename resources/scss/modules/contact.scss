@@ -1,0 +1,25 @@
+#contact {
+
+}
+
+input, textarea, button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1rem;
+}
+
+input, textarea {
+    background: $c_feature_bg;
+    border: 1px solid;
+    border-color: $c_border;
+    font-size: 1.375rem;
+}
+
+button[type="submit"] {
+    background: $c_text_header;
+    font-size:  1.375rem;
+    display: block;
+    border: none;
+    line-height: 1em;
+    text-transform: uppercase;
+}
