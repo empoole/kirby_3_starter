@@ -24,14 +24,15 @@ a {
 }
 
 p, a, li, label {
+  color: $c_text;
   font-size: 1.375rem;
 }
 
 .container {
   margin: auto;
   width: 100%;
-  max-width: $l_container_width;
-  @media only screen and (max-width: $l_container_width) {
+  max-width: $l_container_width_wide;
+  @media only screen and (max-width: $l_container_width_wide) {
     padding: 0 1.5rem;
   }
 }
@@ -73,4 +74,8 @@ p, a, li, label {
       padding: 1.25rem 1rem;
     }
   }
+}
+
+footer #copyright {
+  color: $c_text;
 }
